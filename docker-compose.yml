@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  streamlit-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - DOCKER_MODE=1
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["python3", "main.py"]
