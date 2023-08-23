@@ -9,7 +9,7 @@ Having the file with .csv file with detections and the video it describes result
 ## Example of visalization
 ![detected carplates](https://github.com/C1l1r/real_time_carplate_detection/blob/master/demo.gif)
 
-## Instalation
+## Installation
 
 ```
 docker-compose -f docker_compose_file_path up
